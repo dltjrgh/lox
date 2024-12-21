@@ -1,8 +1,17 @@
-To build:
-  mvn clean install
+## To build
+  
+```sh
+$ make
+```
 
-To execute main class (REPL):
-  mvn exec:java
+## To execute
 
-To execute main class (read from filepath):
-  mvn exec:java -Dexec.args="test.lox"
+```sh
+  ./jlox
+```
+
+## Clean duild
+
+```sh
+  make clean
+```
